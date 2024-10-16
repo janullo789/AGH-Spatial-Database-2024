@@ -2,4 +2,4 @@
 !.gitignore
 !*.pdf
 !Zadanie*
-!s405014.dtsx
+!**/s405014.dtsx
