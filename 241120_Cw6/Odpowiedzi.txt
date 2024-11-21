@@ -1,0 +1,9 @@
+Zadanie 6.
+Kwerenda 5b:
+Type 1 (nadpisywanie zmian) - W kwerendzie zmieniono wartość LastName i Title w tabeli stg_dimemp. 
+Kwerenda 5c:
+Type 2 (śledzenie historii) - W kwerendzie zmieniono wartość FirstName w tabeli stg_dimemp.
+
+Zadanie 7.
+Ustawienie mające wpływ - Fail the transformation if changes are detected in a fixed attribute.
+W kwerendzie 5c zmiana dotyczyła atrybutu oznaczonego jako Fixed Attribute (FirstName). Zgodnie z konfiguracją SCD, jakakolwiek zmiana w Fixed Attribute jest niedozwolona i powoduje przerwanie procesu (fail transformation), jeśli ustawienie to jest włączone.
